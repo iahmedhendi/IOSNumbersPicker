@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A5E2EF1BB36D61A2A954A0A /* Pods_NumbersPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E255B1B8EEC8D3523A227DE5 /* Pods_NumbersPicker.framework */; };
+		5EFB42212131C30A008845DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFB42202131C30A008845DD /* AppDelegate.swift */; };
+		5EFB42232131C30A008845DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFB42222131C30A008845DD /* ViewController.swift */; };
+		5EFB42262131C30A008845DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EFB42242131C30A008845DD /* Main.storyboard */; };
+		5EFB42282131C30B008845DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EFB42272131C30B008845DD /* Assets.xcassets */; };
+		5EFB422B2131C30B008845DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EFB42292131C30B008845DD /* LaunchScreen.storyboard */; };
+		5EFB42352131C405008845DD /* HCheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFB42342131C405008845DD /* HCheckBox.swift */; };
+		5EFB42382131C432008845DD /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFB42372131C432008845DD /* BaseTableViewController.swift */; };
+		5EFB423B2131C474008845DD /* UIImage+Mask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFB423A2131C474008845DD /* UIImage+Mask.swift */; };
+		5EFB423D2131C4C6008845DD /* UIView+Tap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFB423C2131C4C6008845DD /* UIView+Tap.swift */; };
+		5EFB42422131C681008845DD /* SelectNumerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFB423E2131C681008845DD /* SelectNumerDelegate.swift */; };
+		5EFB42432131C681008845DD /* SelectContactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFB423F2131C681008845DD /* SelectContactTableViewController.swift */; };
+		5EFB42442131C681008845DD /* ContactDetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFB42402131C681008845DD /* ContactDetailsTableViewController.swift */; };
+		5EFB42452131C681008845DD /* ContactSelectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFB42412131C681008845DD /* ContactSelectionCell.swift */; };
+		5EFB42492131C74B008845DD /* SelectablePhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFB42472131C74A008845DD /* SelectablePhone.swift */; };
+		5EFB424A2131C74B008845DD /* SelectableContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFB42482131C74A008845DD /* SelectableContact.swift */; };
+		5EFB424C2131C82B008845DD /* colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EFB424B2131C82B008845DD /* colors.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		224794282174472B51635497 /* Pods-NumbersPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NumbersPicker.release.xcconfig"; path = "Pods/Target Support Files/Pods-NumbersPicker/Pods-NumbersPicker.release.xcconfig"; sourceTree = "<group>"; };
+		5EFB421D2131C30A008845DD /* NumbersPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NumbersPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EFB42202131C30A008845DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5EFB42222131C30A008845DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5EFB42252131C30A008845DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5EFB42272131C30B008845DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5EFB422A2131C30B008845DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5EFB422C2131C30B008845DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EFB42342131C405008845DD /* HCheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCheckBox.swift; sourceTree = "<group>"; };
+		5EFB42372131C432008845DD /* BaseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
+		5EFB423A2131C474008845DD /* UIImage+Mask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Mask.swift"; sourceTree = "<group>"; };
+		5EFB423C2131C4C6008845DD /* UIView+Tap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Tap.swift"; sourceTree = "<group>"; };
+		5EFB423E2131C681008845DD /* SelectNumerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectNumerDelegate.swift; sourceTree = "<group>"; };
+		5EFB423F2131C681008845DD /* SelectContactTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectContactTableViewController.swift; sourceTree = "<group>"; };
+		5EFB42402131C681008845DD /* ContactDetailsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactDetailsTableViewController.swift; sourceTree = "<group>"; };
+		5EFB42412131C681008845DD /* ContactSelectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactSelectionCell.swift; sourceTree = "<group>"; };
+		5EFB42472131C74A008845DD /* SelectablePhone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectablePhone.swift; sourceTree = "<group>"; };
+		5EFB42482131C74A008845DD /* SelectableContact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectableContact.swift; sourceTree = "<group>"; };
+		5EFB424B2131C82B008845DD /* colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = colors.xcassets; sourceTree = "<group>"; };
+		97CEA468938286A86C1C36E0 /* Pods-NumbersPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NumbersPicker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NumbersPicker/Pods-NumbersPicker.debug.xcconfig"; sourceTree = "<group>"; };
+		E255B1B8EEC8D3523A227DE5 /* Pods_NumbersPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NumbersPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EFB421A2131C30A008845DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A5E2EF1BB36D61A2A954A0A /* Pods_NumbersPicker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37BF06C27D7EFC11913C7324 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E255B1B8EEC8D3523A227DE5 /* Pods_NumbersPicker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5EFB42142131C30A008845DD = {
+			isa = PBXGroup;
+			children = (
+				5EFB421F2131C30A008845DD /* NumbersPicker */,
+				5EFB421E2131C30A008845DD /* Products */,
+				BC367C9DA4FD11EBEF79D1BD /* Pods */,
+				37BF06C27D7EFC11913C7324 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5EFB421E2131C30A008845DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EFB421D2131C30A008845DD /* NumbersPicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EFB421F2131C30A008845DD /* NumbersPicker */ = {
+			isa = PBXGroup;
+			children = (
+				5EFB42462131C717008845DD /* Model */,
+				5EFB42392131C461008845DD /* Extentions */,
+				5EFB42362131C426008845DD /* Helper */,
+				5EFB42332131C3F1008845DD /* CustomViewes */,
+				5EFB42322131C3B5008845DD /* SupportFiles */,
+				5EFB42222131C30A008845DD /* ViewController.swift */,
+				5EFB42242131C30A008845DD /* Main.storyboard */,
+				5EFB424B2131C82B008845DD /* colors.xcassets */,
+				5EFB42272131C30B008845DD /* Assets.xcassets */,
+				5EFB42292131C30B008845DD /* LaunchScreen.storyboard */,
+				5EFB42402131C681008845DD /* ContactDetailsTableViewController.swift */,
+				5EFB42412131C681008845DD /* ContactSelectionCell.swift */,
+				5EFB423F2131C681008845DD /* SelectContactTableViewController.swift */,
+				5EFB423E2131C681008845DD /* SelectNumerDelegate.swift */,
+				5EFB422C2131C30B008845DD /* Info.plist */,
+			);
+			path = NumbersPicker;
+			sourceTree = "<group>";
+		};
+		5EFB42322131C3B5008845DD /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				5EFB42202131C30A008845DD /* AppDelegate.swift */,
+			);
+			name = SupportFiles;
+			sourceTree = "<group>";
+		};
+		5EFB42332131C3F1008845DD /* CustomViewes */ = {
+			isa = PBXGroup;
+			children = (
+				5EFB42342131C405008845DD /* HCheckBox.swift */,
+			);
+			name = CustomViewes;
+			sourceTree = "<group>";
+		};
+		5EFB42362131C426008845DD /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				5EFB42372131C432008845DD /* BaseTableViewController.swift */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		5EFB42392131C461008845DD /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				5EFB423A2131C474008845DD /* UIImage+Mask.swift */,
+				5EFB423C2131C4C6008845DD /* UIView+Tap.swift */,
+			);
+			name = Extentions;
+			sourceTree = "<group>";
+		};
+		5EFB42462131C717008845DD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5EFB42482131C74A008845DD /* SelectableContact.swift */,
+				5EFB42472131C74A008845DD /* SelectablePhone.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BC367C9DA4FD11EBEF79D1BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97CEA468938286A86C1C36E0 /* Pods-NumbersPicker.debug.xcconfig */,
+				224794282174472B51635497 /* Pods-NumbersPicker.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EFB421C2131C30A008845DD /* NumbersPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EFB422F2131C30B008845DD /* Build configuration list for PBXNativeTarget "NumbersPicker" */;
+			buildPhases = (
+				9532576085462BA7A1DB7F48 /* [CP] Check Pods Manifest.lock */,
+				5EFB42192131C30A008845DD /* Sources */,
+				5EFB421A2131C30A008845DD /* Frameworks */,
+				5EFB421B2131C30A008845DD /* Resources */,
+				494D07392A4F93FCD19F620B /* [CP] Embed Pods Frameworks */,
+				6FE5FAD4979BAA7EF321448B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NumbersPicker;
+			productName = NumbersPicker;
+			productReference = 5EFB421D2131C30A008845DD /* NumbersPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EFB42152131C30A008845DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Hendi;
+				TargetAttributes = {
+					5EFB421C2131C30A008845DD = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 5EFB42182131C30A008845DD /* Build configuration list for PBXProject "NumbersPicker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EFB42142131C30A008845DD;
+			productRefGroup = 5EFB421E2131C30A008845DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EFB421C2131C30A008845DD /* NumbersPicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EFB421B2131C30A008845DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EFB422B2131C30B008845DD /* LaunchScreen.storyboard in Resources */,
+				5EFB424C2131C82B008845DD /* colors.xcassets in Resources */,
+				5EFB42282131C30B008845DD /* Assets.xcassets in Resources */,
+				5EFB42262131C30A008845DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		494D07392A4F93FCD19F620B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NumbersPicker/Pods-NumbersPicker-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NumbersPicker/Pods-NumbersPicker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FE5FAD4979BAA7EF321448B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NumbersPicker/Pods-NumbersPicker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9532576085462BA7A1DB7F48 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NumbersPicker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EFB42192131C30A008845DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EFB423D2131C4C6008845DD /* UIView+Tap.swift in Sources */,
+				5EFB423B2131C474008845DD /* UIImage+Mask.swift in Sources */,
+				5EFB424A2131C74B008845DD /* SelectableContact.swift in Sources */,
+				5EFB42442131C681008845DD /* ContactDetailsTableViewController.swift in Sources */,
+				5EFB42352131C405008845DD /* HCheckBox.swift in Sources */,
+				5EFB42492131C74B008845DD /* SelectablePhone.swift in Sources */,
+				5EFB42232131C30A008845DD /* ViewController.swift in Sources */,
+				5EFB42432131C681008845DD /* SelectContactTableViewController.swift in Sources */,
+				5EFB42382131C432008845DD /* BaseTableViewController.swift in Sources */,
+				5EFB42452131C681008845DD /* ContactSelectionCell.swift in Sources */,
+				5EFB42422131C681008845DD /* SelectNumerDelegate.swift in Sources */,
+				5EFB42212131C30A008845DD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5EFB42242131C30A008845DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EFB42252131C30A008845DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5EFB42292131C30B008845DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EFB422A2131C30B008845DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5EFB422D2131C30B008845DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5EFB422E2131C30B008845DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EFB42302131C30B008845DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97CEA468938286A86C1C36E0 /* Pods-NumbersPicker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35JWA9X453;
+				INFOPLIST_FILE = NumbersPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ihendi.NumbersPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5EFB42312131C30B008845DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 224794282174472B51635497 /* Pods-NumbersPicker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35JWA9X453;
+				INFOPLIST_FILE = NumbersPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ihendi.NumbersPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EFB42182131C30A008845DD /* Build configuration list for PBXProject "NumbersPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EFB422D2131C30B008845DD /* Debug */,
+				5EFB422E2131C30B008845DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EFB422F2131C30B008845DD /* Build configuration list for PBXNativeTarget "NumbersPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EFB42302131C30B008845DD /* Debug */,
+				5EFB42312131C30B008845DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5EFB42152131C30A008845DD /* Project object */;
+}
